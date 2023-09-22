@@ -1,0 +1,145 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    /*Estilização do nav-bar*/
+
+    .container{
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+        grid-template-rows: 100px;
+        width: 100vw;
+        height: 100vh;
+    
+    }
+
+    .container-left{
+        grid-column: 1;
+        display: flex;  
+        justify-content: center;
+        
+    }
+
+    .logo-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo-item img {
+        margin-bottom: 10px; /* Ajuste o espaçamento entre a imagem e o texto */
+    }
+
+    .container-right{
+        display: flex;
+        justify-content: center;
+        grid-column: 2;
+        background-color: #EB3850;
+        height: 100vh;
+    }
+
+
+
+    ul#nav-bar{
+        display: flex;
+        justify-content: space-between;
+        grid-column: 1;
+        grid-row: 1;
+        padding-top:20px;
+        gap:50px;
+        
+    
+        
+    }
+
+    ul#nav-bar li{
+        list-style: none;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        vertical-align: middle;
+
+    }
+
+    ul#nav-bar li.login{
+        color: aliceblue;
+
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1;
+        align-items: center;
+        justify-content: center;    
+
+        
+    }
+
+    .title{
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+
+    .main h1{
+        color: #EB3850;
+        font-size: 3rem;
+        font-family: Sora, Arial;
+    }
+
+   .second-title{
+        font-size: 3rem;
+        color: #EB3850;
+        font-weight: 600;
+        font-family: Sora, Arial;
+        
+    }
+
+    .title-description{
+        font-size: 1.3rem;
+        font-family: Inter, Arial;
+        padding-bottom: 60px;
+    }
+
+    .button-cta{
+        display: flex;
+        justify-content: flex-start;
+        grid-column: 1;
+        align-content: flex-start;
+        
+    }
+    .cta{
+        background-color: #EB3850;
+        border: none;
+        width: 200px;
+        border-radius: 20px;
+        color: white;
+        font-family: Inter, Arial;
+        font-weight: 400;
+        font-size: 1rem;
+        transition: 2s ease;
+        cursor: pointer;
+        height: 50px;
+    }
+
+    .cta:hover{
+        background-color: #fd1c3a;
+    }
+
+
+    .credit-card{
+        grid-column: 2;
+        display: flex;
+        align-items: center;
+        
+        
+        
+    }
+
+    .credit-card{
+        
+    }
